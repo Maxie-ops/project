@@ -7,25 +7,53 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <nav>
-        <h1>Maxwell</h1>
-        <ul>
+    <nav class="flex justify-between items-center py-3 bg-gray-400 border border-gray-500">
+        <h1 class="font-bold text-2xl ml-4">Maxwell</h1>
+        <ul class="flex justify-between items-center space-x-4 mr-3">
             <li><a href="Home">Home</a></li>
             <li><a href="About">About</a></li>
             <li><a href="Work">Work</a></li>
             <li><a href="Resume">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Contact">Contact</a></li>
         </ul>    
     </nav>
 
-    <section class="section">
-        <h1>About</h1>
+    <section class="p-4 border-gray-500 border bg-gray-400 w-[80%] mx-auto mt-4">
+        <h1 class="text-xl ">About</h1>
         <ul>
             <li>Maxwell</li>
             <li>Web Developer</li>
             <li>Frontend Developer</li>
         </ul>
         <p>I am well skilled in HTML, CSS and Javascript</p>
+    </section>
+
+    <section>
+        <h1>Work</h1>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>Resume</h1>
+        <ul>
+            <li>Education</li>
+            <li>Experience</li>
+            <li>Skills</li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>Contact</h1>
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button>Submit</button>
+        </form>
     </section>
 </body>
 </html>
